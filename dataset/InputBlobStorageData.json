@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "products.csv",
+				"fileName": "products1.txt",
 				"container": "rawdata"
 			},
 			"columnDelimiter": ",",
@@ -20,7 +20,15 @@
 		},
 		"schema": [
 			{
-				"name": "ProductID,ProductName,Category",
+				"name": "ProductID",
+				"type": "String"
+			},
+			{
+				"name": "ProductName",
+				"type": "String"
+			},
+			{
+				"name": "Category",
 				"type": "String"
 			}
 		]

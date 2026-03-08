@@ -139,32 +139,37 @@
 						"mappings": [
 							{
 								"source": {
+									"name": "ProductID",
 									"type": "Decimal",
-									"physicalType": "String",
-									"ordinal": 1
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "ProductID",
+									"type": "String",
 									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "ProductName",
 									"type": "String",
-									"ordinal": 2
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "ProductName",
+									"type": "String",
 									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "Category",
 									"type": "String",
-									"ordinal": 3
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "Category",
+									"type": "String",
 									"physicalType": "String"
 								}
 							}
@@ -178,7 +183,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "InputBlobStorageData",
+						"referenceName": "InputBlobStorageDataCsv",
 						"type": "DatasetReference"
 					}
 				],
